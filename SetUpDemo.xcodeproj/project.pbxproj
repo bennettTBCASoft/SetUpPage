@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		914D0F3027BDDD6B00C6FA21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F2F27BDDD6B00C6FA21 /* AppDelegate.swift */; };
 		914D0F3227BDDD6B00C6FA21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F3127BDDD6B00C6FA21 /* SceneDelegate.swift */; };
-		914D0F3427BDDD6B00C6FA21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F3327BDDD6B00C6FA21 /* ViewController.swift */; };
 		914D0F3727BDDD6B00C6FA21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914D0F3527BDDD6B00C6FA21 /* Main.storyboard */; };
 		914D0F3927BDDD6C00C6FA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914D0F3827BDDD6C00C6FA21 /* Assets.xcassets */; };
 		914D0F3C27BDDD6C00C6FA21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914D0F3A27BDDD6C00C6FA21 /* LaunchScreen.storyboard */; };
+		914D0F4427BDEF0C00C6FA21 /* UserPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F4327BDEF0C00C6FA21 /* UserPageViewController.swift */; };
+		914D0F4627BDEF1600C6FA21 /* MerchantPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F4527BDEF1600C6FA21 /* MerchantPageViewController.swift */; };
+		914D0F4827BDF1FE00C6FA21 /* CustomizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F4727BDF1FE00C6FA21 /* CustomizedButton.swift */; };
+		914D0F4A27BE093800C6FA21 /* CustomizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F4927BE093800C6FA21 /* CustomizedView.swift */; };
+		914D0F4D27BE0CB900C6FA21 /* CustomizedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F4C27BE0CB900C6FA21 /* CustomizedTextField.swift */; };
+		914D0F5027BE264B00C6FA21 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F4F27BE264B00C6FA21 /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		914D0F2C27BDDD6B00C6FA21 /* SetUpDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetUpDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914D0F2F27BDDD6B00C6FA21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		914D0F3127BDDD6B00C6FA21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		914D0F3327BDDD6B00C6FA21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		914D0F3627BDDD6B00C6FA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		914D0F3827BDDD6C00C6FA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		914D0F3B27BDDD6C00C6FA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		914D0F3D27BDDD6C00C6FA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914D0F4327BDEF0C00C6FA21 /* UserPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPageViewController.swift; sourceTree = "<group>"; };
+		914D0F4527BDEF1600C6FA21 /* MerchantPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantPageViewController.swift; sourceTree = "<group>"; };
+		914D0F4727BDF1FE00C6FA21 /* CustomizedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedButton.swift; sourceTree = "<group>"; };
+		914D0F4927BE093800C6FA21 /* CustomizedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedView.swift; sourceTree = "<group>"; };
+		914D0F4C27BE0CB900C6FA21 /* CustomizedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedTextField.swift; sourceTree = "<group>"; };
+		914D0F4F27BE264B00C6FA21 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,34 @@
 			children = (
 				914D0F2F27BDDD6B00C6FA21 /* AppDelegate.swift */,
 				914D0F3127BDDD6B00C6FA21 /* SceneDelegate.swift */,
-				914D0F3327BDDD6B00C6FA21 /* ViewController.swift */,
 				914D0F3527BDDD6B00C6FA21 /* Main.storyboard */,
+				914D0F4B27BE0C9800C6FA21 /* Customized */,
+				914D0F4E27BE25BA00C6FA21 /* ViewController */,
 				914D0F3827BDDD6C00C6FA21 /* Assets.xcassets */,
 				914D0F3A27BDDD6C00C6FA21 /* LaunchScreen.storyboard */,
 				914D0F3D27BDDD6C00C6FA21 /* Info.plist */,
 			);
 			path = SetUpDemo;
+			sourceTree = "<group>";
+		};
+		914D0F4B27BE0C9800C6FA21 /* Customized */ = {
+			isa = PBXGroup;
+			children = (
+				914D0F4927BE093800C6FA21 /* CustomizedView.swift */,
+				914D0F4727BDF1FE00C6FA21 /* CustomizedButton.swift */,
+				914D0F4C27BE0CB900C6FA21 /* CustomizedTextField.swift */,
+			);
+			path = Customized;
+			sourceTree = "<group>";
+		};
+		914D0F4E27BE25BA00C6FA21 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				914D0F4327BDEF0C00C6FA21 /* UserPageViewController.swift */,
+				914D0F4527BDEF1600C6FA21 /* MerchantPageViewController.swift */,
+				914D0F4F27BE264B00C6FA21 /* HomePageViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				914D0F3427BDDD6B00C6FA21 /* ViewController.swift in Sources */,
 				914D0F3027BDDD6B00C6FA21 /* AppDelegate.swift in Sources */,
+				914D0F4D27BE0CB900C6FA21 /* CustomizedTextField.swift in Sources */,
+				914D0F4427BDEF0C00C6FA21 /* UserPageViewController.swift in Sources */,
+				914D0F4627BDEF1600C6FA21 /* MerchantPageViewController.swift in Sources */,
+				914D0F5027BE264B00C6FA21 /* HomePageViewController.swift in Sources */,
+				914D0F4A27BE093800C6FA21 /* CustomizedView.swift in Sources */,
+				914D0F4827BDF1FE00C6FA21 /* CustomizedButton.swift in Sources */,
 				914D0F3227BDDD6B00C6FA21 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
