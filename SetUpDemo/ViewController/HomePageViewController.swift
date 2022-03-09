@@ -2,7 +2,7 @@
 //  HomePageViewController.swift
 //  SetUpDemo
 //
-//  Created by TBCASoft-Bennett on 2022/2/17.
+//  Created by TBCASoft-Bennett on 2022/3/9.
 //
 
 import UIKit
@@ -12,7 +12,7 @@ class HomePageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .primary
     }
     
 

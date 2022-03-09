@@ -9,7 +9,7 @@ import UIKit
 
 class UserPageViewController: UIViewController , UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate{
     
-    var regionArray = ["Japan", "Korea", "Malaysia", "Taiwan"]
+    var regionArray = ["blue", "red", "yellow", "green"]
 
     @IBOutlet weak var resetBtn: CustomizedButton!
     @IBOutlet weak var regionTextField: CustomizedTextField!
@@ -53,8 +53,19 @@ class UserPageViewController: UIViewController , UIPickerViewDelegate, UIPickerV
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         self.regionTextField.text = regionArray[row]
         self.regionTextField.layoutIfNeeded()
-        
         self.view.endEditing(true)
+        switch regionArray[row] {
+        case "blue":
+            return
+        case "red":
+            return .primary = UIColor.red
+        case "yellow":
+            return .primary = UIColor.yellow
+        case "green":
+            return .primary = UIColor.green
+        default :
+            return
+        }
     }
     
 // UITextView
@@ -74,15 +85,5 @@ class UserPageViewController: UIViewController , UIPickerViewDelegate, UIPickerV
         vc.modalPresentationStyle = .fullScreen
         
         self.present(vc, animated: true, completion: nil)
-    }
-    
-    @IBAction func goToHomePage(_ sender: Any) {
-        let sb = UIStoryboard(name: "Main", bundle: nil)
-        let homePageVC = sb.instantiateViewController(withIdentifier: "HomePage") as! HomePageViewController
-        
-        homePageVC.modalTransitionStyle = .coverVertical
-        homePageVC.modalPresentationStyle = .fullScreen
-        
-        
     }
 }

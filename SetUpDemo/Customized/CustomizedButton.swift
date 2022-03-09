@@ -8,11 +8,20 @@
 import UIKit
 
 @IBDesignable class CustomizedButton: UIButton {
-
-    @IBInspectable var cornerRadius: CGFloat = 0.0 {
+    
+    @IBInspectable var cornerRadiusRight: Bool = false {
         didSet {
-            layer.cornerRadius = cornerRadius
-            layer.masksToBounds = cornerRadius > 0
+            guard cornerRadiusRight else { return }
+            layer.cornerRadius = self.layer.frame.height / 2
+            layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner]
+        }
+    }
+
+    @IBInspectable var cornerRadiusLeft: Bool = false {
+        didSet {
+            guard cornerRadiusLeft else { return }
+            layer.cornerRadius = self.layer.frame.height / 2
+            layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner]
         }
     }
     

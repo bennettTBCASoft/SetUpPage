@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9116E3B527D89D58001D4CDF /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116E3B427D89D58001D4CDF /* HomePageViewController.swift */; };
+		9116E3B727D8A9BE001D4CDF /* CustomizeedColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116E3B627D8A9BD001D4CDF /* CustomizeedColor.swift */; };
 		914D0F3027BDDD6B00C6FA21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F2F27BDDD6B00C6FA21 /* AppDelegate.swift */; };
 		914D0F3227BDDD6B00C6FA21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F3127BDDD6B00C6FA21 /* SceneDelegate.swift */; };
 		914D0F3727BDDD6B00C6FA21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914D0F3527BDDD6B00C6FA21 /* Main.storyboard */; };
@@ -17,10 +19,11 @@
 		914D0F4827BDF1FE00C6FA21 /* CustomizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F4727BDF1FE00C6FA21 /* CustomizedButton.swift */; };
 		914D0F4A27BE093800C6FA21 /* CustomizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F4927BE093800C6FA21 /* CustomizedView.swift */; };
 		914D0F4D27BE0CB900C6FA21 /* CustomizedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F4C27BE0CB900C6FA21 /* CustomizedTextField.swift */; };
-		914D0F5027BE264B00C6FA21 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D0F4F27BE264B00C6FA21 /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9116E3B427D89D58001D4CDF /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		9116E3B627D8A9BD001D4CDF /* CustomizeedColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeedColor.swift; sourceTree = "<group>"; };
 		914D0F2C27BDDD6B00C6FA21 /* SetUpDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetUpDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914D0F2F27BDDD6B00C6FA21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		914D0F3127BDDD6B00C6FA21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +36,6 @@
 		914D0F4727BDF1FE00C6FA21 /* CustomizedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedButton.swift; sourceTree = "<group>"; };
 		914D0F4927BE093800C6FA21 /* CustomizedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedView.swift; sourceTree = "<group>"; };
 		914D0F4C27BE0CB900C6FA21 /* CustomizedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedTextField.swift; sourceTree = "<group>"; };
-		914D0F4F27BE264B00C6FA21 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				914D0F4927BE093800C6FA21 /* CustomizedView.swift */,
 				914D0F4727BDF1FE00C6FA21 /* CustomizedButton.swift */,
 				914D0F4C27BE0CB900C6FA21 /* CustomizedTextField.swift */,
+				9116E3B627D8A9BD001D4CDF /* CustomizeedColor.swift */,
 			);
 			path = Customized;
 			sourceTree = "<group>";
@@ -93,7 +96,7 @@
 			children = (
 				914D0F4327BDEF0C00C6FA21 /* UserPageViewController.swift */,
 				914D0F4527BDEF1600C6FA21 /* MerchantPageViewController.swift */,
-				914D0F4F27BE264B00C6FA21 /* HomePageViewController.swift */,
+				9116E3B427D89D58001D4CDF /* HomePageViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -169,11 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9116E3B727D8A9BE001D4CDF /* CustomizeedColor.swift in Sources */,
 				914D0F3027BDDD6B00C6FA21 /* AppDelegate.swift in Sources */,
 				914D0F4D27BE0CB900C6FA21 /* CustomizedTextField.swift in Sources */,
 				914D0F4427BDEF0C00C6FA21 /* UserPageViewController.swift in Sources */,
 				914D0F4627BDEF1600C6FA21 /* MerchantPageViewController.swift in Sources */,
-				914D0F5027BE264B00C6FA21 /* HomePageViewController.swift in Sources */,
+				9116E3B527D89D58001D4CDF /* HomePageViewController.swift in Sources */,
 				914D0F4A27BE093800C6FA21 /* CustomizedView.swift in Sources */,
 				914D0F4827BDF1FE00C6FA21 /* CustomizedButton.swift in Sources */,
 				914D0F3227BDDD6B00C6FA21 /* SceneDelegate.swift in Sources */,
@@ -338,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Bennett.SetUpDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BennettTBCASoft.SetUpDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -366,7 +370,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Bennett.SetUpDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BennettTBCASoft.SetUpDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
